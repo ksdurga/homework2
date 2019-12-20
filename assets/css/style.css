@@ -1,4 +1,10 @@
-.me {
+/* .me {
    width: 200px;
    height: 270px;
+} */
+
+.footer {
+   text-align: center;
+   position: fixed;
+   background-color: gray;
 }
