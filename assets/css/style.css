@@ -1,10 +1,57 @@
-/* .me {
+#nav {
+  color: rgba(167, 203, 224, 0.801);
+}
+
+.me {
    width: 200px;
    height: 270px;
-} */
-
+}
+body {
+  overflow: hidden;
+}
 .footer {
    text-align: center;
-   position: fixed;
+   position: sticky;
    background-color: gray;
 }
+
+#mainheader {
+   font-size: 75px;
+   font-family: 'Bebas Neue', sans-serif;
+   margin-left: 100px !important;
+   margin-top: 100px !important;
+}
+
+#secondaryheader {
+   font-family: 'Abel', sans-serif;
+   margin-left: 100px !important;
+   margin-top: 50px !important;
+}
+
+#skills {
+  font-family: 'Abel', sans-serif;
+  margin-left: 100px !important;
+  margin-top: 50px !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none !important;
+  border-radius: 80%;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+/* font-family: 'Abel', sans-serif;
+font-family: 'Bebas Neue', cursive; */
